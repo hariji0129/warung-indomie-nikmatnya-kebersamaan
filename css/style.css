@@ -205,9 +205,9 @@ body {
 
 .hero .content {
   padding: 1.4rem 7%;
-  max-width: 60rem;
+  /*max-width: 60rem;*/
   width: 100%;
-  text-align: left;
+  text-align: center;
   position: fixed;
   top: 130px;
 }
@@ -277,10 +277,10 @@ body {
 
 .about .row .about-img img {
   width: 100%;
-  -webkit-image: url('../img/tentang-kami.jpg');
-  -webkit-size: 50%;
-  -webkit-repeat: no-repeat;
-  -webkit-position: center;
+  -webkit-mask-image: url('../img/menu/noodle.svg');
+  -webkit-mask-size: 90%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
 }
 
 .about .row .content {
